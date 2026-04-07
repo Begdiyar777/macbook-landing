@@ -7,6 +7,7 @@ import Hero from "./components/Hero.jsx";
 import ProductViewer from "./components/ProductViewer.jsx";
 import ShowCase from "./components/ShowCase.jsx";
 import Performance from "./components/Performance.jsx";
+import Features from "./components/Features.jsx";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -18,6 +19,7 @@ const App = () => {
       <ProductViewer />
       <ShowCase />
       <Performance />
+      <Features />
     </main>
   )
 }
